@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Halle Fine Art</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="left-side">
+                <ul>
+                    <li><a class="nav-link" href="#home">HOME</a></li>
+                    <li><a class="nav-link" href="#about">ABOUT</a></li>
+                    <li><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                </ul>  
+            </div>
+            <div class="middle">
+                <div class="logo-wrapper">
+                    <ul>
+                        <li><img id="header-img" src="assets/logos/hallefineart.png"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-side">
+                <ul>
+                    <li><a class="nav-link" href="#print-store">PRINT STORE</a></li>
+                    <li><a class="nav-link" href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to Halle Fine Art</h1>
+        <p>Your mind is the incubator of your life. Your mind is where the main battle of your life is won or lost. 
+            The mind can be a wonderful servant if you give it the right nourishment. 
+            The artwork we sell is designed to nourish your mind and help you to build productive mindsets.
+            Have you ever read a book or gone to a conference and a month later struggled to retain the lessons you learned? You are perfectly ok. 
+            According to German Psychologist Hermann Ebbinghaus we only retain about 20% of the information we consume, a month later. 
+            This means we waste most of our lives relearning unnecessarily.</p>
+            <p>This problem with retention can be overcome with the use of well comeposed artwork I call wall mentors.
+                Images speak 60.000 times quicker than words. This makes images a far more effective way to convey or retain information.<br>
+                <i>" I hear and I forget. I see and I remember. I do and I understand" Confucius.</i></p>
+            <p>All images in the gallery can be purchased as fine art prints, canvas, acrylic, aluminium and wood.</p>
+    </section>
+    <section id="about">
+        <figure class="vid-container">
+            <iframe id="video" width="560" height="315" src="/assets/clips/sample-clip-javascript-variables.mp4" frameborder="0"></iframe>
+            <figcaption>A short movie on my journey of living and capturing images around the world</figcaption>
+        </figure>
+        
+    </section>
+    <section id="portfolio"></section>
+    <section id="print-store"></section>
+    <section id="contact">
+        <form id="form" action="">
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="firstname" placeholder="Your name..">
+
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="lastname" placeholder="Your last name..">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="doh@example.com" required>
+
+            <label for="Message">Message</label>
+            <textarea required name="message" id="message" cols="30" rows="10"></textarea>
+            <input id="submit" type="submit" action="https://www.freecodecamp.com/email-submit" value="Submit Now!">
+        </form>
+    </section>
+</body>
+</html>
